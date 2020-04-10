@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
   if array[mid_point] == value_to_find
     return mid_point
   elsif array[mid_point] < value_to_find
-    find_element_index(array.spl)
-  else
+    find_element_index(array[midpoint..array.length])
   end
+    find_element_index(array[0..midpoint])
 end

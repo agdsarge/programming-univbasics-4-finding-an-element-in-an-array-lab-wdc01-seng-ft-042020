@@ -1,12 +1,9 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  array.sort!
-  midpoint = array.length / 2
-  
-  if array[mid_point] == value_to_find
-    return mid_point
-  elsif array[mid_point] < value_to_find
-    find_element_index(array[midpoint..array.length])
+  index = 0
+  while index < array.length do
+    if array[index] == value_to_find then return index end
+    if 
+    index += 1
   end
-    find_element_index(array[0..midpoint])
 end
